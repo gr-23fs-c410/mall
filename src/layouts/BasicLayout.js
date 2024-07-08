@@ -1,6 +1,10 @@
+import BasicMenu from "../componemts/menus/BasicMenu";
+
 const BasicLayout = ({ children }) => {
     return (
         <>
+            <BasicMenu></BasicMenu>
+            
             <header className="bg-real-400 p-5">
                 <h1 className="text-2xl md:text-4xl">
                     Header
