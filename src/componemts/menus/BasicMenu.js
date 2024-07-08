@@ -11,6 +11,9 @@ const BasicMenu = () => {
                     <li className="pr-6 text-2xl list-none">
                         <Link to={'/about'} className="text-white no-underline">About</Link>
                     </li>
+                    <li className="pr-6 text-2xl list-none">
+                        <Link to={'/todo/'} className="text-white no-underline">Todo</Link>
+                    </li>
                 </ul>
             </div>
 
